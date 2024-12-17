@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <link rel="stylesheet" href="Poke.css">
+    <title>Pokedex</title>
+</head>
+
+<body id="forest">
+  <div id="pokedex">
+    <!-- Sensor y Cámara -->
+    <div class="sensor">
+      <button></button>
+      <img src="./img/Logo.svg"  class="logo"  alt="logo alurageek" />
+    </div>
+    <div class="camera-display">
+        <img src="https://via.placeholder.com/150" alt="Imagen del Pokémon" />
+    </div>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Contenedor de estadísticas -->
+    <div class="stats-display"></div>
+
+    <!-- Botones de acciones -->
+    <div class="bottom-actions">
+      <div id="actions">
+        <button class="a"></button>
+      </div>
+      <div id="cross">
+        <button class="cross-button up"></button>
+        <button class="cross-button left"></button>
+        <button class="cross-button down"></button>
+        <button class="cross-button right"></button>
+        <div class="cross-button center"></div>
+      </div>
+    </div>
+
+    <!-- Formulario para buscar un Pokémon -->
+    <h1 class="titulo">Buscar un Pokémon</h1>
+    <form class="form-container" data-form>
+      <input data-name placeholder="Ingresa el ID del Pokémon" type="text" required />
+      <button type="button" class="game-mode black-button" id="clearStatsButton">Inicio</button>
+      
+    </form>
+
+    
+
+    <div class="lista-populares">
+    <!-- Contenedor para la lista de Pokémon populares -->
+    <h2 class="titulo">Pokémon Populares</h2>
+    <div id="popularPokemonList" class="selected-pokemon-container"></div>
+    <img class="pokemones" src="./img/pngegg.png" alt="">
+    </div>
+  </div>
+ <!-- Pie de página -->
+ <footer class="footer-container">
+  <div>
+      <img src="./img/Logo.svg" />
+  </div>
+  <p> Desarollado por [FreddyFernandez Loria]</p>
+  <small>Alura Latam 2024</small>
+</footer>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+    
+ 
